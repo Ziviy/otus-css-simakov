@@ -1,5 +1,10 @@
-.navlink {
+body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.navlink {
     font-size: 24px;
     font-weight: 500;
     text-decoration: none;
@@ -21,19 +26,16 @@
 }
 
 .subtitle {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
 
 .section-title {
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 700;
 }
 
 .activity-description {
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #0D0D0D;
@@ -47,29 +49,20 @@
 }
 
 .card-bold {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 16px;
 }
 
 .card-descr {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
     font-weight: 400;
 }
 
 .testimonials-link {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
     font-weight: 400;
     color: #000;
     text-decoration: none;
-
 }
 
 .testimonials-link-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
     font-weight: 700;
 }
 
