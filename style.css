@@ -1,14 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: normal;
 }
 
+.hero-section {
+    background-image: url('/img/title-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 0;
+}
+
+.promo-box {
+    background-color: #FFF;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 6% 1%;
+    box-sizing: border-box;
+}
+
+.promo-box>h1 {
+    margin-bottom: 14px;
+}
+
+.menu-list {
+    padding: 2% 1%;
+    text-align: right;
+}
+
 .navlink {
     font-size: 24px;
     font-weight: 500;
     text-decoration: none;
-    color: #000
+    color: #000;
+    margin-left: 3%;
 }
 
 .navlink:hover {
