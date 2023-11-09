@@ -29,7 +29,7 @@ body {
 }
 
 /* Использовано чтобы не создавать отдельный класс для одного CSS правила. Как мне кажется, селектор достаточно читаемый в таком виде */
-.promo-box > h1 {
+.promo-box>h1 {
     margin-bottom: 14px;
 }
 
@@ -60,20 +60,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-width: 80%;
     margin-top: 150px;
     margin-bottom: 150px;
 }
 
 .biography-title {
-    text-orientation: upright;
+    writing-mode:vertical-rl;
+    transform: rotate(180deg);
+    margin-left: 2%;
+    margin-right: 6%;
+    align-self: flex-start;
 }
 
 .biography-name-container {
     display: flex;
     flex-direction: column;
     gap: 36px;
-    flex-grow: 1;
+    width: 32.5%;
+    max-width: 500px;
+}
+
+.biography-line {
+    width: 20px;
+    height: 6px;
+    background-color: #0D0D0D;
+    margin-bottom: 18px;
 }
 
 .main-title {
