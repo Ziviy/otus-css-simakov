@@ -64,6 +64,10 @@ body {
     margin-bottom: 150px;
 }
 
+.biography-picture {
+    width: 100%;
+}
+
 .biography-title {
     writing-mode:vertical-rl;
     transform: rotate(180deg);
