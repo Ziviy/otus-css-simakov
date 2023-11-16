@@ -69,11 +69,18 @@ body {
 }
 
 .biography-title {
-    writing-mode:vertical-rl;
-    transform: rotate(180deg);
     margin-left: 2%;
     margin-right: 6%;
     align-self: flex-start;
+}
+
+.rotated-text {
+    writing-mode:vertical-rl;
+    transform: rotate(180deg);
+}
+
+.testimonials {
+    display: grid;
 }
 
 .biography-name-container {
