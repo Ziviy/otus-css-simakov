@@ -193,7 +193,7 @@ body {
 .designers-title {
     margin-bottom: 30px;
     margin-left: 7%;
-    display: flex;
+    /* display: flex; */
 }
 
 .card-bold {
@@ -205,11 +205,16 @@ body {
     /* max-height: 619px; */
     gap: 20px;
     overflow-x:auto;
-    width: 100%;
 }
 
-.small-card {
+.card {
     align-self: flex-end;
+    /* width: calc(50% - 15px); */
+    min-width: 30%;
+}
+
+.big-card {
+    min-width: 40%;
 }
 
 .big-card > .card-descr {
