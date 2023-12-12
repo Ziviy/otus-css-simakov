@@ -204,7 +204,7 @@ body {
     display: flex;
     /* max-height: 619px; */
     gap: 20px;
-    overflow-x:auto;
+    overflow-x: auto;
 }
 
 .card {
@@ -217,7 +217,7 @@ body {
     min-width: 40%;
 }
 
-.big-card > .card-descr {
+.big-card>.card-descr {
     margin-left: 40%;
 }
 
@@ -246,8 +246,53 @@ body {
     max-width: 221px;
 }
 
+.strong-points-picture {
+    min-width: 335px;
+}
+
+.strong-points-picture > img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.strong-points-title {
+    margin-left: 258px;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+
 .strengths-bullet {
     font-family: 'Bitter', serif;
     font-size: 34px;
     font-weight: 400;
+    display: block;
+    text-align: left;
+}
+
+.strengths-list-section {
+    min-width: 451px;
+    padding-bottom: 18px;
+}
+
+.strengths-list-section > h2 {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.strengths-list-section > div {
+    width: 216px;
+    margin: 0 auto;
+}
+
+.strengths-list-section > .title {
+    line-height: 100%;
+}
+
+.strong-container {
+    margin: 0 0 140px 20px;
+    height: 555px;
+    /* displ    ay: flex; */
+    /* max-height: 619px; */
+    /* gap: 20px;
+    overflow-x: auto; */
 }
