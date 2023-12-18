@@ -247,7 +247,7 @@ body {
 }
 
 .strong-points-picture {
-    min-width: 335px;
+    min-width: 24%;
 }
 
 .strong-points-picture > img {
@@ -270,7 +270,7 @@ body {
 }
 
 .strengths-list-section {
-    min-width: 451px;
+    min-width: 31%;
     padding-bottom: 18px;
 }
 
@@ -290,9 +290,7 @@ body {
 
 .strong-container {
     margin: 0 0 140px 20px;
-    height: 555px;
-    /* displ    ay: flex; */
-    /* max-height: 619px; */
-    /* gap: 20px;
-    overflow-x: auto; */
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
 }
