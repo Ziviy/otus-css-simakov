@@ -288,9 +288,27 @@ body {
     line-height: 100%;
 }
 
-.strong-container {
-    margin: 0 0 140px 20px;
-    display: flex;
-    gap: 20px;
-    overflow-x: auto;
+@supports not (display: flex) {
+    .strong-container {
+        margin: 0 0 140px 20px;
+        overflow-x: auto;
+        white-space: nowrap;
+        height: 555px;
+    
+    }
+    
+    .strong-container > div {
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: top;
+    }
+}
+
+@supports (display: flex) {
+    .strong-container {
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+        margin: 0 0 140px 20px;
+    }
 }
